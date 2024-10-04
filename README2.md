@@ -10,9 +10,8 @@ Utilizando el comando `**docker run --name asir_httpd -d -p 8080:80 -v "$PWD"/ht
 Este comando incia un servidor apache en un contenedor docker, accesible desde el puerto _8080_, y utiliza nuestro servidor local para servir los archivos.
 
 ## Mostra unha páxina html aloxada no apache2 dende o teu navegador.
-
+![](Screenshot_20241004_183605-1.png)
 Para mostrar la pagina html creada abrimos el navegador y colocamos `**http:localhost:8080**` y nos mostrara el html creado.
-<picture>  <source media="(nombre)" srcset="![alt text] (Screenshot_20241004_183605-1.png)"> </picture>
 
 ## Crea un contenedor 'asir_web1' que use este mesmo directorio para 'htdocs' e o puerto 8000
 
